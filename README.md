@@ -18,7 +18,7 @@ Clone this git repo:
 git clone https://github.com/fterdal/vim-config
 ```
 
-You'll need to make sure Vim knows to look here for configuration details whenever it starts up. Add these to your bashrc or zshrc:
+You'll need to make sure Vim knows to look here for configuration details whenever it starts up. Add these to your .bashrc (or .zshrc if you use zsh like I do):
 
 ```sh
 export MYVIMRC='~/.vim/.vimrc'
