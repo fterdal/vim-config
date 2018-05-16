@@ -16,6 +16,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Toggle NerdTree
 map <C-\> :NERDTreeToggle<CR>
 
+" Toggle concellevel (for JSON files and their quotation marks)
+map <leader>l :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<CR>
+
 " Enable mouse actions
 set mouse=a
 
